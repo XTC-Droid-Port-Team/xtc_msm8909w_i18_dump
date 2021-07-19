@@ -1,0 +1,13 @@
+﻿Project：Z6
+Time: 2019-09-05
+version : I18-V1.2.0
+modify contents: 
+1、针对微聊上行声音偏小问题，加大多媒体上行录音增益。
+
+Project：Z6
+Time: 2019-11-08
+version : I18-V1.4.5
+modify contents: 
+1、基于1.2.0版本后做微聊多媒体的参数分离；
+2、优化VoIP手表间视频通话啸叫问题，VoIP上行减小2DB,优化SMECNS模块；
+3、微聊下行优化DRC，增益加大2DB。
