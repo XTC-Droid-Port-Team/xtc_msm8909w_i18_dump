@@ -1,0 +1,13 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+kernel_size=11073284
+ramdisk_size=1346575
+base_addr=0x80000000
+kernel_offset=0x00008000
+ramdisk_offset=0x01000000
+tags_offset=0x00000100
+dtbo_offset=0x80000000
+cmd_line='console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 vmalloc=165675008 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk buildvariant=user productname=I18 appjenkins=2109 modemjenkins=179 buildsoftversion=2.7.5'
+board=""
+format=gzip
